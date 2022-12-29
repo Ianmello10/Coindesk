@@ -11,7 +11,7 @@ function ListCoins({ coin }) {
           {coin.name}
 
           <div className="flex w-auto justify-around">
-            <img className="w-4 mr-2" src="../../src/images/bitcoin.webp"/> {coin.price}</div>
+            <img className="w-4 mr-2" src="../src/images/bitcoin.webp"/> {coin.price}</div>
         </div>
       </Link>
     </div>
