@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import img from '../../src/images/btc.png'
+
 function ListCoins({ coin }) {
   return ( 
      
@@ -11,7 +13,7 @@ function ListCoins({ coin }) {
           {coin.name}
 
           <div className="flex w-auto justify-around">
-            <img className="w-4 mr-2" src="../src/images/btc.png"/> {coin.price}</div>
+            <img className="w-4 mr-2" src={img}/> {coin.price}</div>
         </div>
       </Link>
     </div>
